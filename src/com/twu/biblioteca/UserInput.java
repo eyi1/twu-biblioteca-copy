@@ -8,7 +8,7 @@ public class UserInput {
     public static String userSelection(String prompt) {
         Scanner s = new Scanner(System.in);
         System.out.println(prompt); //prompt
-        String message = s.nextLine();
+        String message = s.nextLine(); //reads string input
         System.out.println(message);
         return message;
     }
