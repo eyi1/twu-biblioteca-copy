@@ -46,4 +46,3 @@ public class Movie {
         return rating;
     }
 }
-
