@@ -9,11 +9,11 @@ public class UserManager {
     private static final String LOGGED_IN_MSG = "Already logged in";
     private static final String LOG_OUT_MSG = "Successfully logged out";
     private static final String PASSWORD_MSG = "Enter Password";
-    private static final String LIBRARIAN_NUMBER_MSG = "Enter Library Number";
+    public ArrayList<User> userList;
+    //private static final String LIBRARIAN_NUMBER_MSG = "Enter Library Number";
 
     // private Map<String, User> userList;
     private User currentUser;
-    private ArrayList<User> userList;
 
     public UserManager(){
         this.userList = new ArrayList<User>();
@@ -41,8 +41,10 @@ public class UserManager {
         }
 
     private User retrieveUser(String libraryNumber, String password) {
-        for(User u : userList){
-            if(isUserVerified(u, libraryNumber, password)) return u;
+        for(User librarian : userList){
+            if(isUserVerified(librarian, libraryNumber, password)) {
+                return librarian;
+            }
         }
         return null;
     }
