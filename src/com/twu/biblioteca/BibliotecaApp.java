@@ -13,7 +13,8 @@ public class BibliotecaApp {
         WelcomeMsg message = new WelcomeMsg();
         message.displayWelcomeMsg();
 
+        UserManager userManager = new UserManager();
         Library library = new Library();
-        Menu.runMenu(library);
+        Menu.runMenu(library, userManager);
     }
 }
