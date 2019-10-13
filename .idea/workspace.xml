@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e029287d-697b-4736-8632-0ad73ba32da8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/LibraryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +188,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570132164673</updated>
-      <workItem from="1570807489220" duration="30590000" />
+      <workItem from="1570807489220" duration="31086000" />
+      <workItem from="1570945351376" duration="16761000" />
     </task>
     <servers />
   </component>
@@ -204,7 +201,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -217,9 +216,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/Library.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java</url>
+          <line>12</line>
+          <properties class="com.twu.biblioteca.MenuTest" method="shouldDisplayMainMenu">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
