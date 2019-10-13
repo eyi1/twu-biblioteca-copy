@@ -1,7 +1,9 @@
 package com.twu.biblioteca;
 
+import com.sun.xml.internal.xsom.impl.scd.Iterators;
 import sun.lwawt.macosx.CSystemTray;
 
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
 
@@ -31,6 +33,7 @@ public class Menu {
         //ArrayList bookList = library.getAvailableBooks();
         Map<String, Book> bookList = library.getAvailableBooks();
         Map<String, Movie> movieList = library.getAvailableMovies();
+        ArrayList <User> librarianList = userManager.userList;
 
         String userInput1;
         String userInput2;
@@ -73,7 +76,11 @@ public class Menu {
                                         Movie movie = movieList.get(item); //retrieving the value of key which is the movie object
                                         System.out.println(movie.getTitle() + " | " + movie.getYear() + " | " + movie.getDirector() + " | " + movie.getRating());
                             });
-                        } else {
+                        } else if(userInput2.contains("P")){
+                            for(User librarian : librarianList){
+                                System.out.println("Name: " + librarian.getName() + "\n" + "Email: " +  librarian.getEmail() + "\n" +  "Phone Number: " + librarian.getPhoneNumber());
+                            }
+                        } else{
                             System.out.println("Invalid option");
                         }
                     } else { //if selection is "B"
