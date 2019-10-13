@@ -95,7 +95,7 @@ public class Library {
     };
 }
 
-    //        if(bookItem != null){
+//        if(bookItem != null){
 //            availableBooks.put(selection2, bookItem);
 //            System.out.println("Thanks for returning the book");
 //            return true;
@@ -135,32 +135,3 @@ public class Library {
 //
 //     };
 
-
-//    public boolean checkOutMovie(String input){
-//        Movie movie = getAvailableMovies().get(input); //retrieves the value of input - key (string)
-//
-//        if(movie != null){
-//            availableMovies.remove(input);
-//            checkedOutMovies.put(input, movie);
-//            System.out.println("Enjoy the movie!");
-//            return true;
-//        }else{
-//            System.out.println("Better luck next time!");
-//            return false;
-//        }
-//    }
-
-
-//    public boolean returnMovie(String input){
-//        Book book = getCheckedOutBooks().get(input);
-//
-//        if(book != null){
-//            availableBooks.put(input, book);
-//            System.out.println("Thanks for returning the book");
-//            return true;
-//        }else{
-//            System.out.println("N/A");
-//            return false;
-//        }
-//
-//    };
