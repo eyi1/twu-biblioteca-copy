@@ -8,7 +8,7 @@ public class Menu {
 
 
     public static String options =
-            "[B] List of Books\n" + "[R] Return\n" + "[C] Check Out\n" + "[M] List of Movies\n" + "[Q] Quit";
+            "[B] List of Books\n" + "[M] List of Movies\n" + "[C] Check Out\n" + "[R] Return\n" + "[P] View Profile" + "[Q] Quit";
 
     //show main menu options
     public static void displayMainMenu() {
@@ -71,10 +71,6 @@ public class Menu {
 
 };
 
-//System.out.println(item.getTitle() + " | " + item.getAuthor() + " | " + item.getPublicationYear()););
-
 //                for (int i = 0; i < books.size(); i++) {
 //                    //Book item = (Book) bookList.get(i);
 //                    Book item = bookList.get(books.get(i));
-
-// System.out.println(item);
