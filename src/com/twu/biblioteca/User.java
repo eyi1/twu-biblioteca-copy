@@ -3,16 +3,20 @@ package com.twu.biblioteca;
 public class User {
     private String name;
     private String email;
-    private String number;
+    private String phoneNumber;
     private String librarianNumber;
     private String password;
 
-    public User(String name, String email, String number, String librarianNumber, String password){
+    public User(String name, String email, String phoneNumber, String librarianNumber, String password){
         this.name = name;
         this.email = email;
-        this.number = number;
+        this.phoneNumber = phoneNumber;
         this.librarianNumber = librarianNumber;
         this.password = password;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     public String getName() {
@@ -21,10 +25,6 @@ public class User {
 
     public String getEmail() {
         return email;
-    }
-
-    public String getNumber() {
-        return number;
     }
 
     public String getLibrarianNumber() {
